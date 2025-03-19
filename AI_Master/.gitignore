@@ -1,0 +1,29 @@
+# 로그 파일 제외
+logs/
+*.log
+
+# 빌드 파일 제외
+/build/
+
+# data 디렉터리 제외
+data/
+MNIST/
+MNIST_data/
+nsmc/
+weather_dataset/
+
+# 환경 변수 설정 파일 제외
+.env
+
+# checkpoint.pth
+.checkpoint.pth
+
+# sentiment_model.bin
+.sentiment_model.bin
+
+# OS 및 IDE 관련 파일 제외
+.DS_Store
+.idea/
+
+# 특정 파일 제외
+secret.txt
